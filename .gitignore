@@ -1,2 +1,6 @@
 .git
 .venv
+__pycache__
+
+create_venv
+create_venv.egg-info
