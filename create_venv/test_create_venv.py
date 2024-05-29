@@ -1,6 +1,8 @@
 import unittest
 from unittest.mock import patch
-from create_venv.create_venv import create_venv
+import subprocess
+
+from create_venv import create_venv
 
 class TestCreateVenv(unittest.TestCase):
     @patch('builtins.input', return_value='my_venv')
