@@ -5,3 +5,4 @@
 `pip install -e .`
 `python3 create_venv`
 
+# TODO - create as pip package
