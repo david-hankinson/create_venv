@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "create_venv"
+version = "0.0.1"
+authors = [
+  { name="David Hankinson", email="davidmhankinson@outlook.com" },
+]
+description = "A simple interactive virtual environment creator"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/david-hankinson/create_venv"
+Issues = "https://github.com/david-hankinson/create_venv/issues"
